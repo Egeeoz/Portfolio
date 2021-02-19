@@ -72,9 +72,13 @@ const Contact = () => {
       <H2>Email And Github</H2>
       <Section>
         <P>
-          <a href="https://outlook.live.com">ege.ozakdemir@student.kyh.se</a>
+          <a href="mailto:ege.ozakdemir@student.kyh.se">
+            ege.ozakdemir@student.kyh.se
+          </a>
         </P>
-        <GithubLink href="https://github.com/Egeeoz">Github</GithubLink>
+        <GithubLink href="https://github.com/Egeeoz" target="_blank">
+          Github
+        </GithubLink>
       </Section>
     </>
   );
