@@ -21,6 +21,7 @@ const Hero = () => {
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
             <img
+              className="rounded-2xl"
               src="https://placehold.jp/3d4070/ffffff/500x500.png?text=Placeholder"
               alt=""
             />
