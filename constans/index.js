@@ -35,3 +35,9 @@ export const PROJECTS = [
     skills: ['HTML', 'CSS', 'Vue.js', 'Express', 'mySQL'],
   },
 ];
+
+export const CONTACT = {
+  address: 'Sweden, Stockholm',
+  phone: '072 018 25 03',
+  email: 'ozakdemirege@hotmail.com',
+};
