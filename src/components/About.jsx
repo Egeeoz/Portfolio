@@ -1,5 +1,6 @@
 import React from 'react';
 import { ABOUT_TEXT } from '../../constans';
+import { motion } from 'framer-motion';
 
 const About = () => {
   return (
@@ -8,16 +9,26 @@ const About = () => {
         About <span className="text-neutral-500">Me</span>
       </h1>
       <div className="flex flex-wrap lg:flex-nowrap">
-        <div className="w-full lg:w-1/2 flex items-start justify-center p-8">
+        <motion.div
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: -100 }}
+          transition={{ duration: 0.5 }}
+          className="w-full lg:w-1/2 flex items-start justify-center p-8"
+        >
           <img
             className="rounded-2xl"
             src="https://placehold.jp/3d4070/ffffff/500x500.png?text=placeholder"
             alt=""
           />
-        </div>
-        <div className="w-full lg:w-1/2 flex items-start justify-center p-8">
+        </motion.div>
+        <motion.div
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: 100 }}
+          transition={{ duration: 0.5 }}
+          className="w-full lg:w-1/2 flex items-start justify-center p-8"
+        >
           <p className="my-2 max-w-xl">{ABOUT_TEXT}</p>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
