@@ -1,38 +1,37 @@
-import Skills from '../src/components/Skills';
 import placeholderIMG from './images/placeholderIMG.png';
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `As an aspiring full-stack developer, I am currently immersed in a comprehensive JavaScript Developer program at Folkuniversitetet. This educational journey is equipping me with a robust foundation in both frontend and backend technologies, including HTML, CSS, JavaScript, React, Node.js, and MongoDB. My growing passion for web development drives me to continuously expand my knowledge and skills in creating responsive, user-centric applications. With each project and challenge, I strive to blend aesthetic design with efficient functionality, aiming to craft digital experiences that are both visually appealing and intuitively navigable`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `My background in customer service, gained through roles at Pressbyrån and Mathem, has instilled in me valuable soft skills that complement my technical abilities. These experiences have honed my problem-solving aptitude, adaptability, and interpersonal communication—attributes I now apply to my development projects and collaborative efforts. Working in fast-paced environments has taught me the importance of teamwork and clear communication, skills that prove invaluable in group coding projects. As I continue to develop my technical expertise, I am equally committed to fostering these collaborative abilities, recognizing their crucial role in the development process. I approach each new learning opportunity with enthusiasm, eager to contribute my growing skills and fresh perspective to meaningful projects in the dynamic field of web development`;
 
 export const PROJECTS = [
   {
-    title: 'E-Commerce Website',
+    title: 'Blackjack Game',
     image: placeholderIMG,
     description:
-      'A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.',
-    skills: ['HTML', 'CSS', 'React', 'Node.js', 'MongoDB'],
+      'A digital implementation of the classic casino game Blackjack, allowing users to play against a computer dealer in a browser-based environment.',
+    skills: ['HTML', 'CSS', 'React', 'Javascript'],
   },
   {
-    title: 'Task Management App',
+    title: 'Weather application',
     image: placeholderIMG,
     description:
-      'An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.',
-    skills: ['HTML', 'CSS', 'Angular', 'Firebase'],
+      'An application that displays the current weather based on user searches, using an API to fetch the data.',
+    skills: ['HTML', 'CSS', 'Javascript'],
   },
   {
     title: 'Portfolio Website',
     image: placeholderIMG,
     description:
       'A personal portfolio website showcasing projects, skills, and contact information.',
-    skills: ['HTML', 'CSS', 'React', 'Bootstrap'],
+    skills: ['HTML', 'CSS', 'React', 'Tailwind'],
   },
   {
-    title: 'Blogging Platform',
+    title: 'School project Solaris',
     image: placeholderIMG,
     description:
-      'A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.',
-    skills: ['HTML', 'CSS', 'Vue.js', 'Express', 'mySQL'],
+      'A simple project showcasing our solar system, where clicking on a planet displays information about it using an API.',
+    skills: ['HTML', 'CSS', 'Javascript'],
   },
 ];
 
