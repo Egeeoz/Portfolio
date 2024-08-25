@@ -25,8 +25,8 @@ const Projects = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  width={150}
-                  height={150}
+                  width={250}
+                  height={250}
                   className="mb-6 rounded"
                 />
               </motion.div>
@@ -41,6 +41,7 @@ const Projects = () => {
                 <p className="my-2 text-neutral-400">
                   <a
                     className="underline underline-offset-4 hover:text-sky-700 transition-all"
+                    target="_blank"
                     href={project.link}
                   >
                     {project.link}

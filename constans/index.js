@@ -1,4 +1,8 @@
 import placeholderIMG from './images/placeholderIMG.png';
+import blackjack from './images/blackjack.png';
+import solaris from './images/solaris.png';
+import weatherapp from './images/weatherapp.png';
+import portfolio from './images/portfolio.png';
 
 export const HERO_CONTENT = `As an aspiring full-stack developer, I am currently immersed in a comprehensive JavaScript Developer program at Folkuniversitetet. This educational journey is equipping me with a robust foundation in both frontend and backend technologies, including HTML, CSS, JavaScript, React, Node.js, and MongoDB. My growing passion for web development drives me to continuously expand my knowledge and skills in creating responsive, user-centric applications. With each project and challenge, I strive to blend aesthetic design with efficient functionality, aiming to craft digital experiences that are both visually appealing and intuitively navigable`;
 
@@ -7,15 +11,15 @@ export const ABOUT_TEXT = `My background in customer service, gained through rol
 export const PROJECTS = [
   {
     title: 'Blackjack Game',
-    image: placeholderIMG,
+    image: blackjack,
     description:
       'A digital implementation of the classic casino game Blackjack, allowing users to play against a computer dealer in a browser-based environment.',
     link: 'https://egeeoz.github.io/Blackjack/',
-    skills: ['HTML', 'CSS', 'React', 'Javascript'],
+    skills: ['HTML', 'CSS', 'React', 'Typescript'],
   },
   {
     title: 'Weather Application',
-    image: placeholderIMG,
+    image: weatherapp,
     description:
       'An application that displays the current weather based on user searches, using an API to fetch the data.',
     link: 'https://weatherappege.surge.sh',
@@ -23,7 +27,7 @@ export const PROJECTS = [
   },
   {
     title: 'Portfolio Website',
-    image: placeholderIMG,
+    image: portfolio,
     description:
       'A personal portfolio website showcasing projects, skills, and contact information.',
     link: 'Link',
@@ -31,7 +35,7 @@ export const PROJECTS = [
   },
   {
     title: 'School Project Solaris',
-    image: placeholderIMG,
+    image: solaris,
     description:
       'A simple project showcasing our solar system, where clicking on a planet displays information about it using an API.',
     link: 'https://egeeoz.github.io/Individuella_Solaris/index.html',
