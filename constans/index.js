@@ -10,13 +10,15 @@ export const PROJECTS = [
     image: placeholderIMG,
     description:
       'A digital implementation of the classic casino game Blackjack, allowing users to play against a computer dealer in a browser-based environment.',
+    link: 'https://egeeoz.github.io/Blackjack/',
     skills: ['HTML', 'CSS', 'React', 'Javascript'],
   },
   {
-    title: 'Weather application',
+    title: 'Weather Application',
     image: placeholderIMG,
     description:
       'An application that displays the current weather based on user searches, using an API to fetch the data.',
+    link: 'https://weatherappege.surge.sh',
     skills: ['HTML', 'CSS', 'Javascript'],
   },
   {
@@ -24,13 +26,15 @@ export const PROJECTS = [
     image: placeholderIMG,
     description:
       'A personal portfolio website showcasing projects, skills, and contact information.',
+    link: 'Link',
     skills: ['HTML', 'CSS', 'React', 'Tailwind'],
   },
   {
-    title: 'School project Solaris',
+    title: 'School Project Solaris',
     image: placeholderIMG,
     description:
       'A simple project showcasing our solar system, where clicking on a planet displays information about it using an API.',
+    link: 'https://egeeoz.github.io/Individuella_Solaris/index.html',
     skills: ['HTML', 'CSS', 'Javascript'],
   },
 ];

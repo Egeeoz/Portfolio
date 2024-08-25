@@ -38,6 +38,14 @@ const Projects = () => {
               >
                 <h6 className="mb-2 font-semibold">{project.title}</h6>
                 <p className="mb-4 text-neutral-400">{project.description}</p>
+                <p className="my-2 text-neutral-400">
+                  <a
+                    className="underline underline-offset-4 hover:text-sky-700 transition-all"
+                    href={project.link}
+                  >
+                    {project.link}
+                  </a>
+                </p>
                 {project.skills.map((skill, index) => {
                   return (
                     <span
