@@ -1,6 +1,7 @@
 import React from 'react';
 import { ABOUT_TEXT } from '../../constans';
 import { motion } from 'framer-motion';
+import profile2 from '../../constans/images/profile2.jpg';
 
 const About = () => {
   return (
@@ -15,11 +16,7 @@ const About = () => {
           transition={{ duration: 0.5 }}
           className="w-full lg:w-1/2 flex items-start justify-center p-8"
         >
-          <img
-            className="rounded-2xl"
-            src="https://placehold.jp/3d4070/ffffff/500x500.png?text=placeholder"
-            alt=""
-          />
+          <img className="rounded-2xl" src={profile2} />
         </motion.div>
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}

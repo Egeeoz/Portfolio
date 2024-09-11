@@ -1,6 +1,7 @@
 import React from 'react';
 import { HERO_CONTENT } from '../../constans';
 import { motion } from 'framer-motion';
+import profile1 from '../../constans/images/profile1.jpg';
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -50,8 +51,7 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               className="rounded-2xl"
-              src="https://placehold.jp/3d4070/ffffff/500x500.png?text=Placeholder"
-              alt=""
+              src={profile1}
             />
           </div>
         </div>

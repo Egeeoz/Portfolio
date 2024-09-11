@@ -1,4 +1,3 @@
-import placeholderIMG from './images/placeholderIMG.png';
 import blackjack from './images/blackjack.png';
 import solaris from './images/solaris.png';
 import weatherapp from './images/weatherapp.png';

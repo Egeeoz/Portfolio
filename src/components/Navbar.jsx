@@ -19,9 +19,6 @@ const Navbar = () => {
         <a href="https://github.com/Egeeoz" target="_blank">
           <FaGithub />
         </a>
-        <a href="">
-          <FaInstagram />
-        </a>
       </div>
     </nav>
   );
