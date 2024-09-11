@@ -29,7 +29,7 @@ export const PROJECTS = [
     image: portfolio,
     description:
       'A personal portfolio website showcasing projects, skills, and contact information.',
-    link: 'Link',
+    link: 'https://egeeoz.github.io/Portfolio/',
     skills: ['HTML', 'CSS', 'React', 'Tailwind'],
   },
   {
