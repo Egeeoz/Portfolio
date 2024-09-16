@@ -3,7 +3,7 @@ import solaris from './images/solaris.png';
 import weatherapp from './images/weatherapp.png';
 import portfolio from './images/portfolio.png';
 
-export const HERO_CONTENT = `My name is Ege and I am 23 years old.I am an upcomming fullstack developer, I am currently immersed in a Javascript developer progam at Folkuniversitetet. This education has equipped me with a great foundation in both backend and frontend development. I have learned HTML, CSS, Javacript, Javascript framework React, Node.js, MongoDB and AWS. I have also learned agile working methods, like Kanban and creating website that are search engine optimized (SEO)`;
+export const HERO_CONTENT = `My name is Ege and I am 23 years old. I am an upcomming fullstack developer, I am currently immersed in a Javascript developer progam at Folkuniversitetet. This education has equipped me with a great foundation in both backend and frontend development. I have learned HTML, CSS, Javacript, Javascript framework React, Node.js, MongoDB and AWS. I have also learned agile working methods, like Kanban and creating website that are search engine optimized (SEO)`;
 
 export const ABOUT_TEXT = `My background in customer service, gained through roles at Pressbyrån and Mathem, has created valuable skills that I also use in my Javascript developer career, I have learned to tackle issues and improve my problemsolving methods. I have learned how to be a leader and be lead by someone, my skills in communication and planning with other team members have improved. I have learned to adapt and become more flexible. I use all of these valuable skill in my solo and team projects. I am always eager to learn something new and develop my skills even more with each project`;
 
