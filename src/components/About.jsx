@@ -22,7 +22,7 @@ const About = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.5 }}
-          className="w-full lg:w-1/2 flex items-start justify-center p-8"
+          className="w-full lg:w-1/2 flex items-start justify-center p-8 text-lg"
         >
           <p className="my-2 max-w-xl">{ABOUT_TEXT}</p>
         </motion.div>
