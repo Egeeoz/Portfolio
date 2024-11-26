@@ -3,9 +3,9 @@ import solaris from './images/solaris.png';
 import weatherapp from './images/weatherapp.png';
 import portfolio from './images/portfolio.png';
 
-export const HERO_CONTENT = `My name is Ege and I am 23 years old. I am an upcomming fullstack developer, I am currently immersed in a Javascript developer progam at Folkuniversitetet. This education has equipped me with a great foundation in both backend and frontend development. I have learned HTML, CSS, Javacript, Javascript framework React, Node.js, MongoDB and AWS. I have also learned agile working methods, like Kanban and creating website that are search engine optimized (SEO)`;
+export const HERO_CONTENT = `I am an aspiring full-stack developer of 23 years who is currently in an intensive education program as a JavaScript developer at Folkuniversitetet. While the training was intensive, it gave me an excellent grasp of both the backend and frontend development. I learned HTML, CSS, JavaScript, and the React framework as well as Node.js, MongoDB, and AWS, all with agile working methods such as Kanban and SEO-based web development.`;
 
-export const ABOUT_TEXT = `My background in customer service, gained through roles at Pressbyrån and Mathem, has created valuable skills that I also use in my Javascript developer career, I have learned to tackle issues and improve my problemsolving methods. I have learned how to be a leader and be lead by someone, my skills in communication and planning with other team members have improved. I have learned to adapt and become more flexible. I use all of these valuable skill in my solo and team projects. I am always eager to learn something new and develop my skills even more with each project`;
+export const ABOUT_TEXT = `I’m really curious about diving deeper into frontend development—I want to create websites that aren’t just functional but also visually striking and engaging. At the same time, I’m excited to keep building my backend skills so I can handle the full stack with confidence. I enjoy being part of a team where ideas flow freely, feedback is valued, and every project is an opportunity to learn and grow.`;
 
 export const PROJECTS = [
   {
