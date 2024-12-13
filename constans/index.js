@@ -2,7 +2,7 @@ import blackjack from './images/blackjack.png';
 import solaris from './images/solaris.png';
 import weatherapp from './images/weatherapp.png';
 import portfolio from './images/portfolio.png';
-import unscramblr from './images/unscramblr.png';
+import unscramblr from './images/unscmblr.png';
 
 export const HERO_CONTENT = `I am an aspiring full-stack developer of 23 years who is currently in an intensive education program as a JavaScript developer at Folkuniversitetet. While the training was intensive, it gave me an excellent grasp of both the backend and frontend development. I learned HTML, CSS, JavaScript, and the React framework as well as Node.js, MongoDB, and AWS, all with agile working methods such as Kanban and SEO-based web development.`;
 
